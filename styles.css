@@ -1,0 +1,53 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.card {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the card image */
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Style the card title */
+.card h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* Style the card description */
+.card p {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Style the "Learn More" link */
+.card a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Change link background color on hover */
+.card a:hover {
+    background-color: #0056b3;
+}
